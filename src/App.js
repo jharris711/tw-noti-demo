@@ -6,7 +6,7 @@ import { ToastProvider } from 'tw-noti';
 export default function App() {
   return (
     <>
-      <ToastProvider>
+      <ToastProvider >
         <Content />
       </ToastProvider>
     </>
