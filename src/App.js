@@ -7,7 +7,7 @@ export default function App() {
   return (
     <>
       <ToastProvider
-        containerClasses="top-12 right-12"
+        containerClasses="bottom-12 right-12"
         messageClasses="font-extrabold"
       >
         <Content />
