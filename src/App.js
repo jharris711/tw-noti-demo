@@ -6,10 +6,7 @@ import { ToastProvider } from 'tw-noti';
 export default function App() {
   return (
     <>
-      <ToastProvider
-        containerClasses="bottom-12 right-12"
-        messageClasses="font-extrabold"
-      >
+      <ToastProvider persist={true} messageClasses="dark:text-white">
         <Content />
       </ToastProvider>
     </>
