@@ -5,7 +5,10 @@ const Content = () => {
   const { enqueueToast } = useToast();
 
   const handleClick = () => {
-    enqueueToast({ content: 'Boomshakalaka!!!', type: 'success' });
+    enqueueToast({
+      content: 'tw-noti: Tailwind Toast Notifications',
+      type: 'info',
+    });
   };
 
   return (
