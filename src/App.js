@@ -8,6 +8,7 @@ export default function App() {
     <>
       <ToastProvider
         persist={true}
+        reverseStackOrder={true}
         messageClasses="dark:text-white font-extrabold"
       >
         <Content />
