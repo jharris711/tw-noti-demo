@@ -30,7 +30,7 @@ export function Content() {
             <h1 className="text-xl font-bold leading-tight tracking-tight text-gray-900 md:text-2xl dark:text-white">
               Test the notifications by clicking the button
             </h1>
-            <Button onClick={handleClick} />
+            <Button handleClick={handleClick} />
           </div>
         </Card>
       </div>
