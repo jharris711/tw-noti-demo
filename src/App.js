@@ -1,6 +1,6 @@
 import React from 'react';
 import './index.css';
-import Content from './Content';
+import { Content } from './content';
 import { ToastProvider } from 'tw-noti';
 
 export default function App() {
