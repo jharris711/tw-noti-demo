@@ -7,6 +7,9 @@ import { Card } from './components/card';
 
 import './index.css';
 
+/**
+ * Toast provider found in index.js
+ */
 export default function App() {
   const { enqueueToast } = useToast();
 
